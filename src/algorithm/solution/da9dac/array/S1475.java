@@ -1,4 +1,4 @@
-package algorithm.solution.da9dac;
+package algorithm.solution.da9dac.array;
 
 import java.util.Scanner;
 
