@@ -11,6 +11,7 @@ import java.util.ListIterator;
 import algorithm.problem.linkedList.P1158;
 
 public class S1158 implements P1158 {
+	// https://da9dac.tistory.com/167
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
