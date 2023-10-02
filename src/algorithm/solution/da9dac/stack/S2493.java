@@ -51,14 +51,14 @@ public class S2493 implements P2493 {
 		System.out.println(sb);
 	}
 
-}
+	static class Tower {
+		int number;
+		int height;
 
-class Tower {
-	int number;
-	int height;
-
-	public Tower(int number, int height) {
-		this.number = number;
-		this.height = height;
+		public Tower(int number, int height) {
+			this.number = number;
+			this.height = height;
+		}
 	}
+
 }
