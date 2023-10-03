@@ -51,7 +51,7 @@ public class S10845 implements P10845 {
 		System.out.println(sb);
 	}
 
-	static class Queue<T> {
+	private static class Queue<T> {
 		private T[] q;
 		private int front = 0;
 		private int back = 0;
