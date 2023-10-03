@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import algorithm.problem.deque.P10866;
 
 public class S10866 implements P10866 {
+	// https://da9dac.tistory.com/176
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
