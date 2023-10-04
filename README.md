@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td>정기 스터디 시간</td>
-    <td>수요일 19:00 ~ 21:00 [2h] <br> 금요일 19:00 ~ 21:00 [2h]
+    <td>수요일 20:00 ~ 22:00 [2h] 
   </tr>
   <tr>
     <td>플랫폼</td>
@@ -61,9 +61,10 @@
 
 <br/>
 
-## 🗂️ 시즌1 DOCS
+## 🗂️ 시즌1 DOCS (2023 4분기)
 - [시즌1 진행 상황](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/blob/main/docs/%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9/%EC%8B%9C%EC%A6%8C1_2%EC%9B%94-7%EC%9B%94_%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9.md)
 - [시즌1 일정표](https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/blob/main/docs/%EB%AC%B8%EC%A0%9C/%EC%8B%9C%EC%A6%8C1_2%EC%9B%94-7%EC%9B%94_%EB%AC%B8%EC%A0%9C.md)
+- [schedule](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
 <br/>
 
@@ -131,17 +132,8 @@
 [날짜] {플랫폼 or 언어} {문제 제목} - {기타 내용}
 ```
 
-- 💡 예시: `[230809] PGS 다트 게임 - 1문제`
+- 💡 예시: `[230809|이름] PGS 다트 게임 - 1문제`
 
 ---
 
 <br/>
-
-해당 README는 다음 레포지토리를 참고해서 제작하였습니다.
-
-- [알고리즘 및 코딩 테스트 문제 풀이 챌린지 100](https://github.com/ellynhan/challenge100-codingtest-study)
-- [알고리즘 및 코딩 테스트 문제 풀이](https://github.com/Seongho0503/Algo_Study)
-- [코딩테스트 기출 문제 풀이 및 업로드 Repository](https://github.com/CodeTest-StudyGroup/Code-Test-Study)
-- [Algorithm Study](https://github.com/b1urrrr/Algorithm-Study)
-
-commit 컨벤션은 [gitmoji](https://gitmoji.dev/)와 [AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)을 참고했습니다.
