@@ -1,4 +1,4 @@
-package algorithm.solution.dohyoungK;
+package algorithm.solution.dohyoungK.array;
 
 import algorithm.problem.array.P1475;
 
