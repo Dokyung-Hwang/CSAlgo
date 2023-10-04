@@ -1,7 +1,3 @@
-<a href="https://www.notion.so/hyokikomori/Algorithm-Study-eeab1b7059824f96b2733d6bc7218428?pvs=4">
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-flat&amp;logo=notion&amp;logoColor=white" alt="Notion">
-</a>
-
 # 🖥 CSAlgo - CS 및 알고리즘 스터디
 
 <table>
@@ -34,23 +30,20 @@
 
 <table>
  <tr>
-    <td align="center"><a href="https://github.com/jinny-l"><img src="https://avatars.githubusercontent.com/torvalds" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/HyowonSin"><img src="https://avatars.githubusercontent.com/torvalds" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/jaea-kim"><img src="https://avatars.githubusercontent.com/torvalds" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/JeonHyoChang"><img src="https://avatars.githubusercontent.com/torvalds" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/Gwonwoo-Nam"><img src="https://avatars.githubusercontent.com/torvalds" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/dohyoungK"><img src="https://avatars.githubusercontent.com/dohyoungK" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/kimhaming"><img src="https://avatars.githubusercontent.com/kimhaming" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/NtoZero"><img src="https://avatars.githubusercontent.com/NtoZero" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/Dokyung-Hwang"><img src="https://avatars.githubusercontent.com/Dokyung-Hwang" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/da9dac"><img src="https://avatars.githubusercontent.com/da9dac" width="130px;" alt=""></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/torvalds"><b>name</b></a></td>
-    <td align="center"><a href="https://github.com/torvalds"><b>name</b></a></td>
-    <td align="center"><a href="https://github.com/torvalds"><b>name</b></a></td>
-    <td align="center"><a href="https://github.com/torvalds"><b>name</b></a></td>
-    <td align="center"><a href="https://github.com/torvalds"><b>name</b></a></td>
+    <td align="center"><a href="https://github.com/dohyoungK"><b>dohyoungK</b></a></td>
+    <td align="center"><a href="https://github.com/kimhaming"><b>kimhaming</b></a></td>
+    <td align="center"><a href="https://github.com/NtoZero"><b>NtoZero(LST)</b></a></td>
+    <td align="center"><a href="https://github.com/Dokyung-Hwang"><b>Smile:DK</b></a></td>
     <td align="center"><a href="https://github.com/da9dac"><b>da9dac</b></a></td>
   </tr>
-  <tr> 
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
+  <tr>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
@@ -77,18 +70,18 @@
 <br/>
 
 ## 🔍 참여 방법
-1. 이 저장소를 `fork` 한다.
-2. 생성된 저장소에 `Github ID`로 폴더를 생성한다.
+1. 이 저장소를 `fork` 혹은 `clone` 한다.
+2. 생성된 저장소의 `src/algorithm/solution/Github ID`로 패키지를 생성한다.
 3. 알고리즘 풀이 후 원본 저장소에 `PR`를 보낸다.
 
 <br/>
 
 ## 📁 Repository 폴더 구조
 ```
-{Github ID}/season2/{날짜}/{코드.java}
+src/algorithm/solution/Github ID/{S문제번호/문제명.java}
 ```
 
-- 💡 예시: `jinny-l/season2/_230809/PGS_다트_게임.java`
+- 💡 예시: `src/algorithm/solution/da9dac/S10885.java`
 
 <br/>
 
@@ -99,7 +92,7 @@
 ```
 
 - 플랫폼에 따라 없는 내용은 생략 가능
-- 💡 예시: `✨feat: PGS_다트_게임 알고리즘 구현`
+- 💡 예시: `✨feat: BOJ_10885`
 
 ### 플랫폼
 
