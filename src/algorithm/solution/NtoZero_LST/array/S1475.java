@@ -2,9 +2,11 @@
 
 package algorithm.solution.NtoZero_LST.array;
 
+import algorithm.problem.array.P1475;
+
 import java.util.Scanner;
 
-public class S1457 {
+public class S1475 implements P1475 {
     /*
         N : 10^6 , 시간제한 - 2초
         시간 복잡도는 N 이하 이어야 함.
