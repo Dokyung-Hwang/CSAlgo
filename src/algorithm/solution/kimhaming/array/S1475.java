@@ -12,6 +12,11 @@ public class S1475 implements P1475 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String N = br.readLine();
+        int n = Integer.parseInt(N);
+        if (n < 1 || n > 1000000) {
+            System.out.println("N은 주어진 조건에 따라서 1 미만, 1,000,000 초과의 수는 입력될 수 없습니다.");
+            return;
+        }
         int[] numSet = new int[10];  // N 에 출현하는 0 ~ 9까지의 숫자의 갯수를 저장할 배열
 
         for (int i = 0; i < N.length(); i++) {
