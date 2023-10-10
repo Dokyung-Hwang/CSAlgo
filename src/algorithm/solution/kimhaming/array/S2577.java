@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class S2577 implements P2577 {
-    // 블로깅 주소
+    // https://velog.io/@haminggu/백준Java-2577번-숫자의-개수
 
     /**
      * Todo: 세 자연수의 곱의 결과에 포함된 0부터 9까지 각 숫자의 빈도를 출력
