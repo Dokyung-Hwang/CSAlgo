@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class S1475 implements P1475 {
-    // 벨로그 블로깅해서 첨부하기
+    // https://velog.io/@haminggu/백준Java-1475번-방-번호-s39n4csn
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
