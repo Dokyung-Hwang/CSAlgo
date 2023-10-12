@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 
-import algorithm.problem.deque.P1021;
+import algorithm.problem.baejoon.deque.P1021;
 
 public class S1021 implements P1021 {
 	// https://da9dac.tistory.com/178

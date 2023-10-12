@@ -1,12 +1,11 @@
 package algorithm.solution.kimhaming.array;
 
-import algorithm.problem.array.P3273;
+import algorithm.problem.baejoon.array.P3273;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.StringTokenizer;
         public class S3273 implements P3273 {
             //  https://velog.io/@haminggu/백준-P3273-두-수의-합

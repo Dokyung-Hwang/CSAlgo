@@ -1,6 +1,7 @@
 package algorithm.solution.NtoZero_LST.array;
 
-import algorithm.problem.array.P10808;
+
+import algorithm.problem.baejoon.array.P10808;
 
 import java.io.*;
 

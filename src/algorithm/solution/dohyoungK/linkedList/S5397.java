@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.linkedList;
 
-import algorithm.problem.linkedList.P5397;
+import algorithm.problem.baejoon.linkedList.P5397;
 
 import java.io.*;
 import java.util.ArrayDeque;

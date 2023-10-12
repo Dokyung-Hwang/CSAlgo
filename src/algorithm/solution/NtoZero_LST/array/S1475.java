@@ -2,7 +2,8 @@
 
 package algorithm.solution.NtoZero_LST.array;
 
-import algorithm.problem.array.P1475;
+
+import algorithm.problem.baejoon.array.P1475;
 
 import java.util.Scanner;
 

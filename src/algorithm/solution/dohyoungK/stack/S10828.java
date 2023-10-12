@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.stack;
 
-import algorithm.problem.stack.P10828;
+import algorithm.problem.baejoon.stack.P10828;
 
 import java.io.*;
 import java.util.ArrayDeque;
