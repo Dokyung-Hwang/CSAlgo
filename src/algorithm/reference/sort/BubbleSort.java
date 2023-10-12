@@ -1,4 +1,4 @@
-package algorithm.reference;
+package algorithm.reference.sort;
 
 public class BubbleSort {
 	/*
