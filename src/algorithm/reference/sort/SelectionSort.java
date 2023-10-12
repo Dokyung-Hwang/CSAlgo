@@ -54,6 +54,7 @@ public class SelectionSort {
 			int temp = normal[i];
 			normal[i] = normal[maxIndex];
 			normal[maxIndex] = temp;
+			System.out.println(Arrays.toString(normal));
 		}
 
 		System.out.println("정렬 후 : " + Arrays.toString(normal));
@@ -75,6 +76,7 @@ public class SelectionSort {
 			int temp = reverse[i];
 			reverse[i] = reverse[maxIndex];
 			reverse[maxIndex] = temp;
+			System.out.println(Arrays.toString(reverse));
 		}
 
 		System.out.println("정렬 후 : " + Arrays.toString(reverse));
