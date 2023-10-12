@@ -1,12 +1,11 @@
 package algorithm.solution.dohyoungK.array;
 
-import algorithm.problem.array.P3273;
+import algorithm.problem.baejoon.array.P3273;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class S3273 implements P3273 {
     public static void main(String[] args) throws IOException {

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-import algorithm.problem.stack.advance.P10799;
+import algorithm.problem.baejoon.stack.advance.P10799;
 
 public class S10799 implements P10799 {
 	// https://da9dac.tistory.com/182

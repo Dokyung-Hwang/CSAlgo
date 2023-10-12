@@ -1,10 +1,11 @@
 package algorithm.solution.NtoZero_LST.stack;
 
-import algorithm.problem.stack.P10828;
+
+import algorithm.problem.baejoon.stack.P10828;
 
 import java.io.*;
 
-public class S10828 implements P10828  {
+public class S10828 implements P10828 {
     /*
         시간 제한 0.5초, 메모리 제한 256MB
         연산의 수 N, 최대 10^5 / 주어지는 정수 K <10^6

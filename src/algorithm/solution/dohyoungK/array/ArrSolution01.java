@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.array;
 
-import algorithm.problem.array.Arr01;
+import algorithm.problem.baejoon.array.Arr01;
 
 import java.util.HashMap;
 import java.util.Map;

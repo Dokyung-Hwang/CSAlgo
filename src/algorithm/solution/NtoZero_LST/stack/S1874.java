@@ -1,6 +1,7 @@
 package algorithm.solution.NtoZero_LST.stack;
 
-import algorithm.problem.stack.P1874;
+
+import algorithm.problem.baejoon.stack.P1874;
 
 import java.util.*;
 import java.io.*;

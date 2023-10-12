@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-import algorithm.problem.bfs.P7576;
+import algorithm.problem.baejoon.bfs.P7576;
 
 public class S7576 implements P7576 {
 	// https://da9dac.tistory.com/190

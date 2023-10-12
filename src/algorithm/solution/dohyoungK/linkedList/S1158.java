@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.linkedList;
 
-import algorithm.problem.linkedList.P1158;
+import algorithm.problem.baejoon.linkedList.P1158;
 
 import java.io.BufferedReader;
 import java.io.IOException;

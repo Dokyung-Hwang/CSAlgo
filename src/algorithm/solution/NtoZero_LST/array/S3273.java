@@ -1,6 +1,7 @@
 package algorithm.solution.NtoZero_LST.array;
 
-import algorithm.problem.array.P3273;
+
+import algorithm.problem.baejoon.array.P3273;
 
 import java.io.*;
 import java.util.Arrays;

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-import algorithm.problem.stack.advance.P2504;
+import algorithm.problem.baejoon.stack.advance.P2504;
 
 public class S2504 implements P2504 {
 

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.array.P3273;
+import algorithm.problem.baejoon.array.P3273;
 
 public class S3273 implements P3273 {
 	// https://da9dac.tistory.com/164

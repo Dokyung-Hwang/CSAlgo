@@ -1,5 +1,7 @@
 package algorithm.solution.da9dac.bfs;
 
+import algorithm.problem.baejoon.bfs.P1012;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +9,6 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-import algorithm.problem.bfs.P1012;
 
 public class S1012 implements P1012 {
 	// https://da9dac.tistory.com/193

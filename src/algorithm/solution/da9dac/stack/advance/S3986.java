@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-import algorithm.problem.stack.advance.P3986;
+import algorithm.problem.baejoon.stack.advance.P3986;
 
 public class S3986 implements P3986 {
 	// https://da9dac.tistory.com/181

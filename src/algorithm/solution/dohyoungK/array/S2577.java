@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.array;
 
-import algorithm.problem.array.P2577;
+import algorithm.problem.baejoon.array.P2577;
 
 import java.util.Arrays;
 import java.util.Scanner;

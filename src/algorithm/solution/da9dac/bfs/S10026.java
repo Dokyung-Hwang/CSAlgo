@@ -1,12 +1,14 @@
 package algorithm.solution.da9dac.bfs;
 
+import algorithm.problem.baejoon.bfs.P10026;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-import algorithm.problem.bfs.P10026;
+
 
 public class S10026 implements P10026 {
 	// https://da9dac.tistory.com/194
