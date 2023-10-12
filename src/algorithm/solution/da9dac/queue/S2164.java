@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import algorithm.problem.queue.P2164;
+import algorithm.problem.baejoon.queue.P2164;
 
 public class S2164 implements P2164 {
 	// https://da9dac.tistory.com/175

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.deque.P10866;
+import algorithm.problem.baejoon.deque.P10866;
 
 public class S10866 implements P10866 {
 	// https://da9dac.tistory.com/176

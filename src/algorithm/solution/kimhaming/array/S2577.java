@@ -1,10 +1,8 @@
 package algorithm.solution.kimhaming.array;
 
-import algorithm.problem.array.P2577;
+import algorithm.problem.baejoon.array.P2577;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class S2577 implements P2577 {

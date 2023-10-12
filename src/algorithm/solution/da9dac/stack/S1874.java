@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-import algorithm.problem.stack.P1874;
+import algorithm.problem.baejoon.stack.P1874;
 
 public class S1874 implements P1874 {
 	// https://da9dac.tistory.com/170

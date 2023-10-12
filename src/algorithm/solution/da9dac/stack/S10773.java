@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
 
-import algorithm.problem.stack.P10773;
+import algorithm.problem.baejoon.stack.P10773;
 
 public class S10773 implements P10773 {
 	// https://da9dac.tistory.com/manage/posts/
