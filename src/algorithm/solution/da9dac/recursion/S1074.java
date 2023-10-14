@@ -8,6 +8,7 @@ import java.util.StringTokenizer;
 import algorithm.problem.baejoon.recursion.P1074;
 
 public class S1074 implements P1074 {
+	//
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
