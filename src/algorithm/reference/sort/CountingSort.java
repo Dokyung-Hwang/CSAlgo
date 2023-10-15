@@ -6,6 +6,7 @@ public class CountingSort {
 	/*
 		https://www.youtube.com/watch?v=59fZkZO0Bo4&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&index=15
 		해당 강의에서 설명 하는 카운팅 정렬을 자바로 구현한 코드
+		시간 복잡도 : O(N + K)
 
 		주어진 숫자의 범위만큼 배열을 만든 후에
 		해당 배열에 숫자의 등장 여부를 카운트하고
