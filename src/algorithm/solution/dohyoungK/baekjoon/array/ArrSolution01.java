@@ -1,4 +1,4 @@
-package algorithm.solution.dohyoungK.array;
+package algorithm.solution.dohyoungK.baekjoon.array;
 
 import algorithm.problem.baejoon.array.Arr01;
 
