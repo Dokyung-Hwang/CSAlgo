@@ -1,4 +1,4 @@
-package algorithm.problem.baejoon.bfs;
+package algorithm.reference.graph;
 
 import java.util.LinkedList;
 import java.util.Queue;
