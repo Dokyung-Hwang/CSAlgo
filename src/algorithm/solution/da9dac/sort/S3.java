@@ -19,15 +19,14 @@ public class S3 implements P3 {
 
 		int max = 0;
 
-		for (int i = 1; i <= citations[citations.length - 1]; i++) {
+		for (int i =  citations[citations.length - 1]; i >= 1; i--) {
 			if (citations.length - i < i) {
 				int num = 0;
 				for (int citation : citations) {
 					if (citation >= i) {
 						num++;
 						if (num == i) {
-							max = i;
-							break;
+							return i;
 						}
 					}
 				}
