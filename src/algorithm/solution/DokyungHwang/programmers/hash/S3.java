@@ -2,7 +2,6 @@ package algorithm.solution.DokyungHwang.programmers.hash;
 
 import algorithm.problem.programmers.hash.P3;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class S3 implements P3 {
@@ -31,9 +30,9 @@ public class S3 implements P3 {
         // phone_book 요소가 hashMap에 있는 지 체크
         // 97674223
         // j -> 9 97 976 9756 ...
-        for (int i = 0; i < phone_book.length; i++) {
-            for (int j = 1; j < phone_book[i].length(); j++) {
-                if (hashMap.containsKey(phone_book[i].substring(0, j))) {
+        for (String s : phone_book) {
+            for (int j = 1; j < s.length(); j++) {
+                if (hashMap.containsKey(s.substring(0, j))) {
                     return false;
                 }
             }
