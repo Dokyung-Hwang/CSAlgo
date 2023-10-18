@@ -1,4 +1,4 @@
-package algorithm.solution.kimhaming.programmers;
+package algorithm.solution.kimhaming.programmers.hash;
 
 import algorithm.problem.programmers.hash.P1;
 
