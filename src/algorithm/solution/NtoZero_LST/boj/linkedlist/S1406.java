@@ -1,4 +1,4 @@
-package algorithm.solution.NtoZero_LST.linkedlist;
+package algorithm.solution.NtoZero_LST.boj.linkedlist;
 
 
 import algorithm.problem.baejoon.linkedList.P1406;
