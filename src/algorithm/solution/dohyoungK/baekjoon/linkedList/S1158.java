@@ -1,4 +1,4 @@
-package algorithm.solution.dohyoungK.linkedList;
+package algorithm.solution.dohyoungK.baekjoon.linkedList;
 
 import algorithm.problem.baejoon.linkedList.P1158;
 
