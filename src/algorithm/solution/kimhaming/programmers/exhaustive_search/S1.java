@@ -1,6 +1,7 @@
 package algorithm.solution.kimhaming.programmers.exhaustive_search;
 
 public class S1 {
+    //  https://velog.io/@haminggu/프로그래머스Java-완전탐색-최소-직사각형
     public static void main(String[] args) {
         int[][] sizes = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
 
