@@ -1,6 +1,6 @@
 //https://www.acmicpc.net/submit/1475
 
-package algorithm.solution.NtoZero_LST.array;
+package algorithm.solution.NtoZero_LST.boj.array;
 
 
 import algorithm.problem.baejoon.array.P1475;

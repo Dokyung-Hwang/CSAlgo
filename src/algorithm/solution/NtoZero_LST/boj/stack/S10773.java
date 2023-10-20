@@ -1,4 +1,4 @@
-package algorithm.solution.NtoZero_LST.stack;
+package algorithm.solution.NtoZero_LST.boj.stack;
 
 
 import algorithm.problem.baejoon.stack.P10773;
