@@ -1,4 +1,4 @@
-package algorithm.solution.kimhaming.array;
+package algorithm.solution.kimhaming.baekjoon.array;
 
 import algorithm.problem.baejoon.array.P2577;
 
