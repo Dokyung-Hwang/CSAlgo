@@ -1,4 +1,4 @@
-package algorithm.solution.DokyungHwang.programmers.sort;
+package algorithm.solution.smileDK.programmers.sort;
 
 import algorithm.problem.programmers.sort.P1;
 

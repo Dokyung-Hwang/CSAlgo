@@ -1,4 +1,4 @@
-package algorithm.solution.DokyungHwang.baejoon.stack;
+package algorithm.solution.smileDK.baejoon.stack;
 
 import algorithm.problem.baejoon.stack.P1874;
 

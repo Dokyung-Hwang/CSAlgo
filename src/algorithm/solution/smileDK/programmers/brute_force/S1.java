@@ -1,6 +1,7 @@
-package algorithm.solution.DokyungHwang.programmers.brute_force;
+package algorithm.solution.smileDK.programmers.brute_force;
 
-import algorithm.problem.programmers.brute_force.P1;
+
+import algorithm.problem.programmers.bruteForce.P1;
 
 import java.util.Arrays;
 

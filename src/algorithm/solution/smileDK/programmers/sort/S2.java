@@ -1,9 +1,8 @@
-package algorithm.solution.DokyungHwang.programmers.sort;
+package algorithm.solution.smileDK.programmers.sort;
 
 import algorithm.problem.programmers.sort.P2;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class S2 implements P2 {
     public static void main(String[] args) {

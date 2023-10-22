@@ -1,4 +1,4 @@
-package algorithm.solution.DokyungHwang.programmers.hash;
+package algorithm.solution.smileDK.programmers.hash;
 
 import algorithm.problem.programmers.hash.P3;
 
