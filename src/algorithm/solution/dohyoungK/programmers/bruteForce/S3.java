@@ -18,37 +18,34 @@ public class S3 implements P3 {
 //  구할 수 있는 모든 숫자를 구하고
 //  그 수가 소수인지 판별
 
-    public static int solution(String numbers) {
-        int answer = 0;
-        HashSet<Integer> hs = new HashSet<>();
+    static boolean[] visited;
+    static HashSet<Integer> hs = new HashSet<>();
 
+    public static int solution(String numbers) {
+        int result = 0;
+        visited = new boolean[numbers.length()];
         for (int i = 1; i <= numbers.length(); i++) { // 조합할 숫자의 자릿수
-            for (int j = 0; j < numbers.length(); j++) { // 조합을 시작할 숫자의 index
-                makeNum(hs, numbers, "", j, new boolean[numbers.length()], i);
-            }
+            makeNum(numbers, "", i);
         }
 
         for (int num : hs) {
-            if (isPrime(num)) answer++;
+            if (isPrime(num)) result++;
         }
 
-        return answer;
+        return result;
     }
 
-    public static void makeNum(HashSet<Integer> totalNums, String numbers, String result, int index, boolean[] visited, int len) {
-        StringBuilder sb = new StringBuilder(result);
-        visited[index] = true;
-        sb.append(numbers.charAt(index));
-
-        if (sb.length() == len) {
-            totalNums.add(Integer.valueOf(sb.toString()));
-            return;
-        }
-
+    public static void makeNum(String numbers, String num, int len) {
         for (int i = 0; i < numbers.length(); i++) {
             if (!visited[i]) {
-                makeNum(totalNums, numbers, sb.toString(), i, visited.clone(), len);
+                visited[i] = true;
+                makeNum(numbers, num + numbers.charAt(i), len);
+                visited[i] = false;
             }
+        }
+
+        if (num.length() == len) {
+            hs.add(Integer.valueOf(num));
         }
     }
 
