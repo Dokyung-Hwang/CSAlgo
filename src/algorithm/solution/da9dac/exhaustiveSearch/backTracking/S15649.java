@@ -1,17 +1,17 @@
-package algorithm.solution.da9dac.backTracking;
+package algorithm.solution.da9dac.exhaustiveSearch.backTracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.backTracking.P15650;
+import algorithm.problem.baejoon.backTracking.P15649;
 
-public class S15650 implements P15650 {
+public class S15649 implements P15649 {
 
 	private static int n;
 	private static int m;
-	private static boolean[] isUsed = new boolean[9];
-	private static int[] arr = new int[9];
+	private static int[] arr = new int[10];
+	private static boolean[] isUsed = new boolean[10];
 	private static StringBuilder sb = new StringBuilder();
 
 	public static void main(String[] args) throws IOException {
@@ -36,10 +36,7 @@ public class S15650 implements P15650 {
 			return;
 		}
 
-		int st = 1;
-		if(k != 0) st = arr[k-1] + 1;
-
-		for (int i = st; i <= n; i++) {
+		for (int i = 1; i <= n; i++) {
 			if (!isUsed[i]) {
 				arr[k] = i;
 				isUsed[i] = true;
