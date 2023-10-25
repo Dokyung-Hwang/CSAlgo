@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 public class S3 implements P3 {
     public static void main(String[] args) {
-        System.out.println(solution("011"));
+        System.out.println(solution("012"));
     }
 
 // TODO:
@@ -36,16 +36,17 @@ public class S3 implements P3 {
     }
 
     public static void makeNum(String numbers, String num, int len) {
+        if (num.length() == len) {
+            hs.add(Integer.valueOf(num));
+            return;
+        }
+
         for (int i = 0; i < numbers.length(); i++) {
             if (!visited[i]) {
                 visited[i] = true;
                 makeNum(numbers, num + numbers.charAt(i), len);
                 visited[i] = false;
             }
-        }
-
-        if (num.length() == len) {
-            hs.add(Integer.valueOf(num));
         }
     }
 
