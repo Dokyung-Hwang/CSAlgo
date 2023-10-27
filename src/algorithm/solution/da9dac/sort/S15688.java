@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-import algorithm.problem.baejoon.sort.P15688;
+import algorithm.problem.baekjoon.sort.P15688;
 
 public class S15688 implements P15688 {
 

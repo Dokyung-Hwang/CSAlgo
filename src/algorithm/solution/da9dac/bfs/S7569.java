@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.bfs.P7569;
+import algorithm.problem.baekjoon.bfs.P7569;
 
 public class S7569 implements P7569 {
 

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 
-import algorithm.problem.baejoon.deque.P5430;
+import algorithm.problem.baekjoon.deque.P5430;
 
 public class S5430 implements P5430 {
 	// https://da9dac.tistory.com/179

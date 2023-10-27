@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-import algorithm.problem.baejoon.bfs.P7576;
+import algorithm.problem.baekjoon.bfs.P7576;
 
 public class S7576 implements P7576 {
 	// https://da9dac.tistory.com/190

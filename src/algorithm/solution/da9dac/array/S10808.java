@@ -2,7 +2,7 @@ package algorithm.solution.da9dac.array;
 
 import java.util.Scanner;
 
-import algorithm.problem.baejoon.array.P10808;
+import algorithm.problem.baekjoon.array.P10808;
 
 public class S10808 implements P10808 {
 	public static void main(String[] args) {

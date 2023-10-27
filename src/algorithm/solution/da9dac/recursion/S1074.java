@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import algorithm.problem.baejoon.recursion.P1074;
+import algorithm.problem.baekjoon.recursion.P1074;
 
 public class S1074 implements P1074 {
 	//

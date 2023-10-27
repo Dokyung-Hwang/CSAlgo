@@ -1,6 +1,6 @@
 package algorithm.solution.da9dac.bfs;
 
-import algorithm.problem.baejoon.bfs.P1697;
+import algorithm.problem.baekjoon.bfs.P1697;
 
 import java.io.BufferedReader;
 import java.io.IOException;

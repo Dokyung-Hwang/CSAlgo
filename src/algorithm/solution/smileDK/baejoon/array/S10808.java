@@ -1,6 +1,6 @@
 package algorithm.solution.smileDK.baejoon.array;
 
-import algorithm.problem.baejoon.array.P10808;
+import algorithm.problem.baekjoon.array.P10808;
 
 import java.io.BufferedReader;
 import java.io.IOException;

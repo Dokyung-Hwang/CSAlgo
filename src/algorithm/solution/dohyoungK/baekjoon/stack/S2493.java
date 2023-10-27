@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.baekjoon.stack;
 
-import algorithm.problem.baejoon.stack.P2493;
+import algorithm.problem.baekjoon.stack.P2493;
 
 import java.io.BufferedReader;
 import java.io.IOException;

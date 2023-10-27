@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.recursion.P1992;
+import algorithm.problem.baekjoon.recursion.P1992;
 
 public class S1992 implements P1992 {
 	// https://da9dac.tistory.com/205

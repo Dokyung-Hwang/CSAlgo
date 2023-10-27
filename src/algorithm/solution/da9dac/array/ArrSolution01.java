@@ -1,6 +1,6 @@
 package algorithm.solution.da9dac.array;
 
-import algorithm.problem.baejoon.array.Arr01;
+import algorithm.problem.baekjoon.array.Arr01;
 
 public class ArrSolution01 implements Arr01 {
 	// https://da9dac.tistory.com/161

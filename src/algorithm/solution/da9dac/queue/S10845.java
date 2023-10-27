@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.queue.P10845;
+import algorithm.problem.baekjoon.queue.P10845;
 
 public class S10845 implements P10845 {
 	// https://da9dac.tistory.com/174

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.recursion.P1780;
+import algorithm.problem.baekjoon.recursion.P1780;
 
 public class S1780 implements P1780 {
 	// https://da9dac.tistory.com/202
