@@ -1,6 +1,6 @@
 package algorithm.solution.smileDK.baejoon.array;
 
-import algorithm.problem.baejoon.array.P2577;
+import algorithm.problem.baekjoon.array.P2577;
 
 import java.util.Scanner;
 

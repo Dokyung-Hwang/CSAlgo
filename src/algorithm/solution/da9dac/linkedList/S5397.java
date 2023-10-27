@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-import algorithm.problem.baejoon.linkedList.P5397;
+import algorithm.problem.baekjoon.linkedList.P5397;
 
 public class S5397 implements P5397 {
 

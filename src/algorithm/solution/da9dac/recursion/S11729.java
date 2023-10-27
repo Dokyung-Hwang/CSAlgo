@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-import algorithm.problem.baejoon.recursion.P11729;
+import algorithm.problem.baekjoon.recursion.P11729;
 
 public class S11729 implements P11729 {
 	// https://da9dac.tistory.com/197

@@ -2,7 +2,7 @@ package algorithm.solution.da9dac.array;
 
 import java.util.Scanner;
 
-import algorithm.problem.baejoon.array.P2577;
+import algorithm.problem.baekjoon.array.P2577;
 
 public class S2577 implements P2577 {
 	// https://da9dac.tistory.com/162

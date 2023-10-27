@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-import algorithm.problem.baejoon.bfs.P2178;
+import algorithm.problem.baekjoon.bfs.P2178;
 
 public class S2178 implements P2178 {
 	// https://da9dac.tistory.com/186

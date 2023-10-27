@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-import algorithm.problem.baejoon.stack.advance.P4949;
+import algorithm.problem.baekjoon.stack.advance.P4949;
 
 public class S4949 implements P4949 {
 	// https://da9dac.tistory.com/180

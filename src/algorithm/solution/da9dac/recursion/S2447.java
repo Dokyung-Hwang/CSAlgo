@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-import algorithm.problem.baejoon.recursion.P2447;
+import algorithm.problem.baekjoon.recursion.P2447;
 
 public class S2447 implements P2447 {
 	// https://da9dac.tistory.com/206
