@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.baekjoon.queue;
 
-import algorithm.problem.baejoon.queue.P2164;
+import algorithm.problem.baekjoon.queue.P2164;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

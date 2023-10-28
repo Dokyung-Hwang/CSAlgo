@@ -1,6 +1,6 @@
 package algorithm.solution.kimhaming.baekjoon.array;
 
-import algorithm.problem.baejoon.array.P1475;
+import algorithm.problem.baekjoon.array.P1475;
 
 import java.io.BufferedReader;
 import java.io.IOException;

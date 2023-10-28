@@ -5,14 +5,12 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Collection;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import algorithm.problem.baejoon.hash.P7785;
+import algorithm.problem.baekjoon.hash.P7785;
 
 public class S7785 implements P7785 {
 

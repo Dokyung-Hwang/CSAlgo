@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.backTracking.P15649;
+import algorithm.problem.baekjoon.backTracking.P15649;
 
 public class S15649 implements P15649 {
 

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-import algorithm.problem.baejoon.hash.P1620;
+import algorithm.problem.baekjoon.hash.P1620;
 
 public class S1620 implements P1620 {
 

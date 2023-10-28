@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Vector;
 
-import algorithm.problem.baejoon.stack.P10828;
+import algorithm.problem.baekjoon.stack.P10828;
 
 public class S10828 implements P10828 {
 	// https://da9dac.tistory.com/168

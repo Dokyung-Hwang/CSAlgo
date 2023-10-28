@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-import algorithm.problem.baejoon.bfs.P1926;
+import algorithm.problem.baekjoon.bfs.P1926;
 
 public class S1926 implements P1926 {
 	// https://da9dac.tistory.com/184

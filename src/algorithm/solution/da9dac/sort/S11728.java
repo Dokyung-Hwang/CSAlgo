@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-import algorithm.problem.baejoon.sort.P11728;
+import algorithm.problem.baekjoon.sort.P11728;
 
 public class S11728 implements P11728 {
 	// https://da9dac.tistory.com/195

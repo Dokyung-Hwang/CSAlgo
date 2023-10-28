@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import algorithm.problem.baejoon.recursion.P2630;
+import algorithm.problem.baekjoon.recursion.P2630;
 
 public class S2630 implements P2630 {
 	// https://da9dac.tistory.com/204
