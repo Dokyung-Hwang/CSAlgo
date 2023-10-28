@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.baekjoon.deque;
 
-import algorithm.problem.baejoon.deque.P5430;
+import algorithm.problem.baekjoon.deque.P5430;
 
 import java.io.*;
 import java.util.*;

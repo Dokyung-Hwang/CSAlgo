@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.baekjoon.deque;
 
-import algorithm.problem.baejoon.deque.P1021;
+import algorithm.problem.baekjoon.deque.P1021;
 
 import java.io.BufferedReader;
 import java.io.IOException;
