@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import algorithm.problem.baekjoon.backTracking.P15651;
 
 public class S15651 implements P15651 {
+	// https://da9dac.tistory.com/208
 
 	private static int n;
 	private static int m;
