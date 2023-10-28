@@ -12,11 +12,11 @@ public class S4 implements P4 {
     }
 
     public static int[] solution(int brown, int yellow) {
-        int[] answer = new int[2];
-        int sum = brown + yellow;
+        int[] answer = new int[2];  // [ , ]
+        int sum = brown + yellow;   // 10 + 2 = 12
 
         for (int i = 3; i < sum; i++) {
-            int j = sum / i;
+            int j = sum / i;        // 4
 
             if (sum % i == 0 && j >= 3) {
                 int col = Math.max(i, j);
