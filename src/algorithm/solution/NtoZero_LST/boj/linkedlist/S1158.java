@@ -1,7 +1,7 @@
 package algorithm.solution.NtoZero_LST.boj.linkedlist;
 
 
-import algorithm.problem.baejoon.linkedList.P1158;
+import algorithm.problem.baekjoon.linkedList.P1158;
 
 import java.io.*;
 import java.util.LinkedList;

@@ -1,6 +1,6 @@
 package algorithm.solution.dohyoungK.baekjoon.linkedList;
 
-import algorithm.problem.baejoon.linkedList.P1406;
+import algorithm.problem.baekjoon.linkedList.P1406;
 
 import java.io.*;
 import java.util.*;

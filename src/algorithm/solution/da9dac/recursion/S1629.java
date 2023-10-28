@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-import algorithm.problem.baejoon.recursion.P1629;
+import algorithm.problem.baekjoon.recursion.P1629;
 
 public class S1629 implements P1629 {
 	// https://da9dac.tistory.com/196

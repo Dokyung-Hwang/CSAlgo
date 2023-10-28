@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-import algorithm.problem.baejoon.linkedList.P1406;
+import algorithm.problem.baekjoon.linkedList.P1406;
 
 public class S1406 implements P1406 {
 	// https://da9dac.tistory.com/165
