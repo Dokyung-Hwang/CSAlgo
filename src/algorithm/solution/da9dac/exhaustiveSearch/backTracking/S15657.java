@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 import algorithm.problem.baekjoon.backTracking.P15657;
 
 public class S15657 implements P15657 {
+	// https://da9dac.tistory.com/214
 
 	private static StringBuilder sb = new StringBuilder();
 	private static int n;
