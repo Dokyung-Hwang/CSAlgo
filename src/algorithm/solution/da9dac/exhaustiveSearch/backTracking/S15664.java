@@ -1,10 +1,12 @@
-package algorithm.problem.baekjoon.backTracking;
+package algorithm.solution.da9dac.exhaustiveSearch.backTracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
+
+import algorithm.problem.baekjoon.backTracking.P15664;
 
 public class S15664 implements P15664 {
 	// https://da9dac.tistory.com/216
