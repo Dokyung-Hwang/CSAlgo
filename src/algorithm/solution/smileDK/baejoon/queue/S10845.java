@@ -2,8 +2,11 @@ package algorithm.solution.smileDK.baejoon.queue;
 
 import algorithm.problem.baekjoon.queue.P10845;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 
 /*Todo:
@@ -15,17 +18,19 @@ import java.util.Scanner;
    back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.*/
 public class S10845 implements P10845 {
     // TODO: Scanner -> BufferedReader
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         StringBuilder sb = new StringBuilder();
-        int n = sc.nextInt();
+        int n = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < n; i++) {
-            String str = sc.next();
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            String str = st.nextToken();
 
             switch (str) {
                 case "push":
-                    push(sc.nextInt());
+                    push(Integer.parseInt(st.nextToken()));
                     break;
                 case "pop":
                     sb.append(pop()).append('\n');
