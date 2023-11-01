@@ -54,10 +54,13 @@ public class S10845 implements P10845 {
 
     private static LinkedList<Integer> queue = new LinkedList<>();
 
+
+    // 정수 X를 Queue에 넣는 연산
     public static void push(int x) {
         queue.add(x);
     }
 
+    // Queue에서 가장 앞에 있는 정수를 빼고, 그 수를 출력. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력
     public static int pop() {
         if (queue.isEmpty())
             return -1;
@@ -68,20 +71,24 @@ public class S10845 implements P10845 {
         }
     }
 
+    // Queue에 들어있는 정수의 개수 출력
     public static int size() {
         return queue.size();
     }
 
+    // Queue가 비어있으면 1, 아니면 0 출력
     public static int empty() {
         if (queue.isEmpty()) return 1;
         else return 0;
     }
 
+    // Queue의 가장 앞에 있는 정수를 출력. 만약 들어있는 정수가 없는 경우에는 -1을 출력.
     public static int front() {
         if (queue.isEmpty()) return -1;
         else return queue.get(0);
     }
 
+    // Queue의 가장 뒤에 있는 정수를 출력. 만약 들어있는 정수가 없는 경우에는 -1을 출력
     public static int back() {
         if (queue.isEmpty()) return -1;
         else return queue.get(queue.size() - 1);
