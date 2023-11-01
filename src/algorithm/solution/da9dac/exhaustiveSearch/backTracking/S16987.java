@@ -29,19 +29,19 @@ public class S16987 implements P16987 {
 			eggs[i] = new Egg(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
 		}
 
-		eggToEgg(0);
+		eggToEgg(0, 0);
 
 		System.out.println(max);
 	}
 
-	private static void eggToEgg(int now) {
+	private static void eggToEgg(int now, int count) {
 		if (now == n) {
-			maxCalcurator();
+			max = Math.max(max, count);
 			return;
 		}
 
 		if (isBroken[now]) {
-			eggToEgg(now + 1);
+			eggToEgg(now + 1, count);
 			return;
 		}
 
@@ -53,30 +53,29 @@ public class S16987 implements P16987 {
 				egg.durability = egg.durability - newEgg.weight;
 				newEgg.durability = newEgg.durability - egg.weight;
 
-				if (egg.durability <= 0) isBroken[now] = true;
-				if (newEgg.durability <= 0) isBroken[i] = true;
+				if (egg.durability <= 0) {
+					isBroken[now] = true;
+					count++;
+				}
+				if (newEgg.durability <= 0) {
+					isBroken[i] = true;
+					count++;
+				}
 
-				eggToEgg(now + 1);
+				eggToEgg(now + 1, count);
 
 				egg.durability = egg.durability + newEgg.weight;
 				newEgg.durability = newEgg.durability + egg.weight;
 
+				if (isBroken[now]) count--;
+				if (isBroken[i]) count--;
+
 				isBroken[now] = false;
 				isBroken[i] = false;
 			}
+
+			max = Math.max(count, max);
 		}
-
-		maxCalcurator();
-	}
-
-	private static void maxCalcurator() {
-		int count = 0;
-
-		for (boolean b : isBroken) {
-			if (b) count++;
-		}
-
-		max = Math.max(count, max);
 	}
 
 	private static class Egg {
