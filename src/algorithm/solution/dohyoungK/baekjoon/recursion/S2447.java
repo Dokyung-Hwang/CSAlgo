@@ -3,6 +3,7 @@ package algorithm.solution.dohyoungK.baekjoon.recursion;
 import algorithm.problem.baekjoon.recursion.P2447;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class S2447 implements P2447 {
 // TODO:
@@ -15,6 +16,8 @@ public class S2447 implements P2447 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
         result = new String[N][N];
+
+        for (String[] str : result) Arrays.fill(str, " ");
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -37,13 +40,7 @@ public class S2447 implements P2447 {
 //    | 4 | 5 | 6 |
 //    | 7 | 8 | 9 |
     private static void star(int N, int section, int row, int col) {
-        if (section == 5) { // 공백으로 채우기
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j++) {
-                    result[row + i][col + j] = " ";
-                }
-            }
-        } else { // * 로 채우기
+        if (section != 5) { // * 로 채우기
             if (N == 1) {
                 result[row][col] = "*";
                 return;
