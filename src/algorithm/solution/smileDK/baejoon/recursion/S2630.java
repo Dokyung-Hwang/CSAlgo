@@ -5,7 +5,6 @@ import algorithm.problem.baekjoon.recursion.P2630;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 //TODO:   색종이 만들기 (분할 정복 - 재귀, 탐색)
