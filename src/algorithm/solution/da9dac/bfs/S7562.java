@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
 import algorithm.problem.baekjoon.bfs.P7562;
 
 public class S7562 implements P7562 {
+	// https://da9dac.tistory.com/238
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
