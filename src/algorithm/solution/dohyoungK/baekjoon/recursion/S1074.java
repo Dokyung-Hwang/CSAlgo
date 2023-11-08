@@ -52,15 +52,15 @@ public class S1074 implements P1074 {
             left = true;
         }
 
-        if (up && left) { // 1사분면
+        if (up && left) { // 왼쪽 위
             traversal(N - 1, row, col);
-        } else if (up && !left) { // 2사분면
+        } else if (up && !left) { // 오른쪽 위
             result += Math.pow(2, 2 * N - 2);
             traversal(N - 1, row, (int) (col - Math.pow(2, N - 1)));
-        } else if (!up && left) { // 3사분면
+        } else if (!up && left) { // 왼쪽 아래
             result += 2 * Math.pow(2, 2 * N - 2);
             traversal(N - 1, (int) (row - Math.pow(2, N - 1)), col);
-        } else if (!up && !left) { // 4사분면
+        } else if (!up && !left) { // 오른쪽 아래
             result += 3 * Math.pow(2, 2 * N - 2);
             traversal(N - 1, (int) (row - Math.pow(2, N - 1)), (int) (col - Math.pow(2, N - 1)));
         }
