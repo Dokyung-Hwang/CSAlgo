@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
 import algorithm.problem.baekjoon.bfs.P9466;
 
 public class S9466 implements P9466 {
+	// https://da9dac.tistory.com/243
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
