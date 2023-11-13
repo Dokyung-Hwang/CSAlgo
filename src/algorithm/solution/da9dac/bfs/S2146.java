@@ -103,6 +103,10 @@ public class S2146 implements P2146 {
 						distance = Math.min(distance, cur.dist);
 						continue;
 					}
+					if (cur.dist >= distance) {
+						isVisited[x][y] = true;
+						continue;
+					}
 
 					isVisited[x][y] = true;
 					queue.offer(new Continent(x, y, cur.dist + 1));
