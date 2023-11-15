@@ -21,7 +21,7 @@ public class S15649 implements P15649 {
     private static int m;
     private static int[] sequence;
     private static boolean[] visited;
-    private static StringBuilder sb = new StringBuilder();
+    private static final StringBuilder sb = new StringBuilder();
 
 
     public static void main(String[] args) throws IOException {
