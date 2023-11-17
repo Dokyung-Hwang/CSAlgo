@@ -6,7 +6,7 @@
 | 0x02 | [기초 코드 작성 요령 II](https://www.acmicpc.net/workbook/view/7306) | ![100%](https://progress-bar.dev/14/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
 | 0x03 | [배열](https://www.acmicpc.net/workbook/view/7307) |  ![100%](https://progress-bar.dev/5/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | 0x04 | [연결 리스트](https://www.acmicpc.net/workbook/view/7308) |  ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
-| 0x05 | [스택](https://www.acmicpc.net/workbook/view/7309) |  ![100%](https://progress-bar.dev/4/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
+| 0x05 | [스택](https://www.acmicpc.net/workbook/view/7309) |  ![100%](https://progress-bar.dev/5/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | 0x06 | [큐](https://www.acmicpc.net/workbook/view/7310) |  ![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
 | 0x07 | [덱](https://www.acmicpc.net/workbook/view/7311) |  ![100%](https://progress-bar.dev/3/?scale=4&title=progress&width=500&color=babaca&suffix=/4)   |
 | 0x08 | [스택의 활용(수식의 괄호 쌍)](https://www.acmicpc.net/workbook/view/7312) |  ![100%](https://progress-bar.dev/5/?scale=5&title=progress&width=500&color=babaca&suffix=/5)   |
@@ -14,7 +14,7 @@
 | 0x0A | DFS (문제집 X) |                                                                                                 |
 | 0x0B | [재귀](https://www.acmicpc.net/workbook/view/7314) | ![100%](https://progress-bar.dev/9/?scale=10&title=progress&width=500&color=babaca&suffix=/10)  |
 | 0x0C | [백트래킹](https://www.acmicpc.net/workbook/view/7315) | ![100%](https://progress-bar.dev/17/?scale=20&title=progress&width=500&color=babaca&suffix=/20) |
-| 0x0D | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ![100%](https://progress-bar.dev/0/?scale=61&title=progress&width=500&color=babaca&suffix=/61)  |
+| 0x0D | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ![100%](https://progress-bar.dev/1/?scale=61&title=progress&width=500&color=babaca&suffix=/61)  |
 | 0x0E | [정렬 I](https://www.acmicpc.net/workbook/view/7317) |  ![100%](https://progress-bar.dev/3/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | 0x0F | [정렬 II](https://www.acmicpc.net/workbook/view/7318) |  ![100%](https://progress-bar.dev/6/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
 | 0x10 | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) | ![100%](https://progress-bar.dev/0/?scale=44&title=progress&width=500&color=babaca&suffix=/44)  |
