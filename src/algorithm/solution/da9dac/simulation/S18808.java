@@ -27,11 +27,15 @@ public class S18808 implements P18808 {
 
 			int[][] sticker = new int[r][c];
 
+			int size = 0;
+
 			for (int j = 0; j < r; j++) {
 				st = new StringTokenizer(br.readLine());
 
 				for (int l = 0; l < c; l++) {
-					sticker[j][l] = Integer.parseInt(st.nextToken());
+					int num = Integer.parseInt(st.nextToken());
+					sticker[j][l] = num;
+					if (num == 1) size++;
 				}
 			}
 
