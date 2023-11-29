@@ -9,11 +9,11 @@ import java.util.StringTokenizer;
 
 public class S1926 {
 
-    static int[][] board;
-    static boolean[][] visited;
-    static int n, m;
-    static int[] dx = {-1, 1, 0, 0};
-    static int[] dy = {0, 0, -1, 1};
+    public static int[][] board;
+    public static boolean[][] visited;
+    public static int n, m;
+    public static int[] dx = {-1, 1, 0, 0};
+    public static int[] dy = {0, 0, -1, 1};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,7 +30,7 @@ public class S1926 {
                 board[i][j] = Integer.parseInt(st.nextToken());
         }
 
-        int mx = 0;
+        int max = 0;
         int num = 0;
 
         for (int i = 0; i < n; i++) {
@@ -54,15 +54,15 @@ public class S1926 {
                         Q.add(new Pair(nx, ny));
                     }
                 }
-                mx = Math.max(mx, area);
+                max = Math.max(max, area);
             }
         }
 
-        System.out.println(num + "\n" + mx);
+        System.out.println(num + "\n" + max);
     }
 
 
-    static class Pair {
+    private static class Pair {
         int x, y;
 
         public Pair(int x, int y) {
