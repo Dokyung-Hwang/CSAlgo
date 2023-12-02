@@ -33,4 +33,4 @@
 | 0x1D | [다익스트라 알고리즘](https://www.acmicpc.net/workbook/view/10433) | ![100%](https://progress-bar.dev/0/?scale=14&title=progress&width=500&color=babaca&suffix=/14)  |
 | 0x1E | [KMP](https://www.acmicpc.net/workbook/view/12205) |  ![100%](https://progress-bar.dev/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | 0x1F | [트라이](https://www.acmicpc.net/workbook/view/12649) | ![100%](https://progress-bar.dev/1/?scale=10&title=progress&width=500&color=babaca&suffix=/10)  |
-| Appendix A | [문자열 기초](https://www.acmicpc.net/workbook/view/14409) | ![100%](https://progress-bar.dev/3/?scale=16&title=progress&width=500&color=babaca&suffix=/16)  |
+| Appendix A | [문자열 기초](https://www.acmicpc.net/workbook/view/14409) | ![100%](https://progress-bar.dev/9/?scale=16&title=progress&width=500&color=babaca&suffix=/16)  |
