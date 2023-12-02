@@ -1,4 +1,4 @@
-package algorithm.solution.da9dac.sort;
+package algorithm.solution.da9dac.string;
 
 import java.io.BufferedReader;
 import java.io.IOException;
