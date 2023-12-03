@@ -3,15 +3,9 @@ package algorithm.solution.da9dac.hash;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Comparator;
-import java.util.HashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
-import java.util.TreeSet;
-import java.util.stream.Collectors;
 
 import algorithm.problem.baekjoon.hash.P13414;
 
