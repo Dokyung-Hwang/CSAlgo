@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 import algorithm.problem.baekjoon.hash.P13414;
 
-public class S13414 extends P13414 {
+public class S13414 implements P13414 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
