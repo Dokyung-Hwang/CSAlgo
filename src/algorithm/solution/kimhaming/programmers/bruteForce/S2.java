@@ -38,9 +38,10 @@ public class S2 implements P2 {
         for (int i = 0; i < hit.length; i++)
             if (max == hit[i]) list.add(i + 1);
 
-            int[] answer = new int[list.size()];
+            int[] answer = new int[list.size()];    // 위에서 완성한 리스트를 배열로 변환하는 과정
             int cnt = 0;
             for (int num : list)
+                // 후위 증감이기 때문에 인덱스 0부터 시작해서 num 할당한 후에 인덱스가 1씩 증가합니다.
                 answer[cnt++] = num;
             return answer;
         }
