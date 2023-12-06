@@ -14,6 +14,7 @@ public class S5648 implements P5648 {
         int N = Integer.parseInt(st.nextToken());
         long[] arr = new long[N];
 
+        //TODO:
         int count = 0;
         while (true) {
             if (st.hasMoreTokens()) {
@@ -23,13 +24,13 @@ public class S5648 implements P5648 {
                 st = new StringTokenizer(br.readLine());
             }
         }
-//        while ( count < N) {
-//            if(!st.hasMoreTokens()) {
-//                st = new StringTokenizer(br.readLine());
-//            }
-//            arr[count] = Long.parseLong(st.nextToken());
-//            count++;
-//        }
+        while ( count < N) {
+            if(!st.hasMoreTokens()) {
+                st = new StringTokenizer(br.readLine());
+            }
+            arr[count] = Long.parseLong(st.nextToken());
+            count++;
+        }
 
         // 역원소
         for(int i=0; i<N; i++) {
