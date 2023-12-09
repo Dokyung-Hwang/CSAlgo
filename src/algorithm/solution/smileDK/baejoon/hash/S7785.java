@@ -34,8 +34,6 @@ public class S7785 implements P7785 {
             }
         }
 
-        List<String> name = new ArrayList<>();
-
         nameList.sort(Collections.reverseOrder());
 
         for (String s : nameList) {
