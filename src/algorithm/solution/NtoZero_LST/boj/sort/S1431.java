@@ -32,6 +32,7 @@ public class S1431 implements P1431 {
             this.length = serialNum.length();
         }
 
+        //TODO:
         @Override
         public int compareTo(Guitar other) {
             if (this.length != other.length) {
@@ -48,14 +49,14 @@ public class S1431 implements P1431 {
                     return this.numSum - other.numSum;
             }
             // this.numSum == other.numSum
-            int comp = 0;
-            for(int i=0; i<this.length; i++) {
-                if(this.serialNum.charAt(i) != other.serialNum.charAt(i)) {
-                    comp = this.serialNum.charAt(i) - other.serialNum.charAt(i);
-                    break;
-                }
-            }
-            return comp;
+//            int comp = 0;
+//            for(int i=0; i<this.length; i++) {
+//                if(this.serialNum.charAt(i) != other.serialNum.charAt(i)) {
+//                    comp = this.serialNum.charAt(i) - other.serialNum.charAt(i);
+//                    break;
+//                }
+//            }
+            return this.serialNum.compareTo(other.serialNum);
         }
     }
 
