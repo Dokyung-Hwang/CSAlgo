@@ -18,7 +18,7 @@ public class S1351 implements P1351 {
 
     static long P;
     static long Q;
-    static HashMap<Long, Long> dp = new HashMap<>();
+    static HashMap<Long, Long> dp = new HashMap<>(); // 이전에 계산한 적이 있는 값들 저장용
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -33,9 +33,12 @@ public class S1351 implements P1351 {
     }
 
     public static long findSequence(long n) {
+        // 이전에 계산한 적이 있다면 바로 return get()
         if (dp.getOrDefault(n, 0L) != 0L) {
             return dp.get(n);
         }
+
+        // 아니라면 계산 후 hashmap에 저장하고 return get()
         dp.put(n, findSequence(n / P) + findSequence(n / Q));
 
         return dp.get(n);

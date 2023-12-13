@@ -5,6 +5,7 @@ import algorithm.problem.baekjoon.hash.P7785;
 import java.io.*;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,7 +25,7 @@ public class S7785 implements P7785 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(br.readLine());
 
-        HashMap<String, String> hm = new HashMap<>();
+        HashMap<String, String> hm = new LinkedHashMap<>();
         for (int i = 0; i < n; i++) {
             String[] input = br.readLine().split(" ");
             if (input[1].equals("enter")) {
@@ -45,6 +46,7 @@ public class S7785 implements P7785 {
                 throw new RuntimeException(e);
             }
         });
+
         bw.flush();
         bw.close();
     }
