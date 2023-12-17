@@ -17,7 +17,7 @@
 | 0x0D | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ![100%](https://progress-bar.dev/1/?scale=61&title=progress&width=500&color=babaca&suffix=/61)  |
 | 0x0E | [정렬 I](https://www.acmicpc.net/workbook/view/7317) |  ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | 0x0F | [정렬 II](https://www.acmicpc.net/workbook/view/7318) |  ![100%](https://progress-bar.dev/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
-| 0x10 | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) | ![100%](https://progress-bar.dev/5/?scale=44&title=progress&width=500&color=babaca&suffix=/44)  |
+| 0x10 | [다이나믹 프로그래밍](https://www.acmicpc.net/workbook/view/7319) | ![100%](https://progress-bar.dev/7/?scale=44&title=progress&width=500&color=babaca&suffix=/44)  |
 | 0x11 | [그리디](https://www.acmicpc.net/workbook/view/7320) | ![100%](https://progress-bar.dev/1/?scale=17&title=progress&width=500&color=babaca&suffix=/17)  |
 | 0x12 | [수학](https://www.acmicpc.net/workbook/view/8174) | ![100%](https://progress-bar.dev/10/?scale=39&title=progress&width=500&color=babaca&suffix=/39) |
 | 0x13 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) | ![100%](https://progress-bar.dev/4/?scale=21&title=progress&width=500&color=babaca&suffix=/21)  |
