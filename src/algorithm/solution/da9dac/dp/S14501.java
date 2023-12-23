@@ -26,7 +26,7 @@ public class S14501 implements P14501 {
 			prices[i] = Integer.parseInt(st.nextToken());
 		}
 
-		int[] d = new int[n + 1];
+		int[] dp = new int[n + 1];
 		int result = 0;
 
 		for (int i = 1; i <= n; i++) {
@@ -35,10 +35,10 @@ public class S14501 implements P14501 {
 			int max = prices[i];
 
 			for (int j = 1; j < i; j++) {
-				if (j + times[j] - 1 < i) max = Math.max(prices[i] + d[j], max);
+				if (j + times[j] - 1 < i) max = Math.max(prices[i] + dp[j], max);
 			}
 
-			d[i] = max;
+			dp[i] = max;
 			result = Math.max(max, result);
 		}
 
