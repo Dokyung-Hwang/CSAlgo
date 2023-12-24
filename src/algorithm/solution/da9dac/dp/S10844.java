@@ -34,6 +34,6 @@ public class S10844 implements P10844 {
 			count += dp[n][i];
 		}
 
-		System.out.println(count);
+		System.out.println(count % MOD);
 	}
 }
