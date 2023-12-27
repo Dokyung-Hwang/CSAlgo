@@ -22,7 +22,7 @@ public class S1149 implements P1149 {
                     .toArray();
         }
 
-        int[][] dp = new int[N + 1][3];
+        int[][] dp = new int[N + 1][3]; // dp[i][j] => i번째 집을 빨, 초, 파 중 한가지 색으로 칠했을 때 i번째까지의 총 비용
         dp[1] = expense[1];
 
         for (int i = 2; i <= N; i++) {

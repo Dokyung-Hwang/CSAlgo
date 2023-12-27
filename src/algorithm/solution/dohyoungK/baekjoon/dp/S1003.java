@@ -26,7 +26,7 @@ public class S1003 implements P1003 {
                 dp[j][1] = dp[j - 1][1] + dp[j - 2][1];
             }
 
-            start = Math.max(2, N);
+            start = Math.max(2, N); // 중복 연산을 줄이기 위해
             bw.write(dp[N][0] + " " + dp[N][1] + "\n");
         }
 
