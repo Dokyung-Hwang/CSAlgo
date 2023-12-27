@@ -17,9 +17,9 @@ public class S1463 implements P1463 {
         dp[1] = 0;
 
         for (int i = 2; i <= N; i++) {
-            dp[i] = dp[i - 1] + 1;
-            if (i % 2 == 0) dp[i] = Math.min(dp[i], dp[i / 2] + 1);
-            if (i % 3 == 0) dp[i] = Math.min(dp[i], dp[i / 3] + 1);
+            dp[i] = dp[i - 1] + 1; // 3번 연산
+            if (i % 2 == 0) dp[i] = Math.min(dp[i], dp[i / 2] + 1); // 3번 연산과 2번 연산 중 최솟값 구하기
+            if (i % 3 == 0) dp[i] = Math.min(dp[i], dp[i / 3] + 1); // 3번 연산과 1번 연산 중 최솟값 구하기
         }
 
         System.out.println(dp[N]);
