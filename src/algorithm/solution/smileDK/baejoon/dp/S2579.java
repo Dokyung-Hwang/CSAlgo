@@ -25,13 +25,12 @@ import java.io.InputStreamReader;
 
 public class S2579 implements P2579 {
 
-    private static int[] d = new int[300];
-    private static int[] s = new int[300];
-    private static int stairNums;
+    private static final int[] d = new int[301];
+    private static final int[] s = new int[301];
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        stairNums = Integer.parseInt(br.readLine());
+        int stairNums = Integer.parseInt(br.readLine());
 
         int total = 0;
         for (int i = 1; i <= stairNums; i++) {
