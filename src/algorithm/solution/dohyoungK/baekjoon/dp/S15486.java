@@ -1,0 +1,28 @@
+package algorithm.solution.dohyoungK.baekjoon.dp;
+
+import algorithm.problem.baekjoon.dp.P15486;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class S15486 implements P15486 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        int[] dp = new int[N + 1500000];  // dp[i] => i일까지 벌 수 있는 최대 수익
+        int maxPay = 0;
+
+        for (int i = 0; i < N; i++) {
+            String[] input = br.readLine().split(" ");
+            int time = Integer.parseInt(input[0]);
+            int pay = Integer.parseInt(input[1]);
+
+            dp[i] = Math.max(dp[i], maxPay);
+            maxPay = dp[i];
+            dp[i + time] = Math.max(dp[i + time], dp[i] + pay); // 지금까지 계산한 값 vs 오늘 새로운 일을 해서 벌 수 있는 소득 비교
+        }
+
+        System.out.println(Math.max(dp[N], maxPay));
+    }
+}
