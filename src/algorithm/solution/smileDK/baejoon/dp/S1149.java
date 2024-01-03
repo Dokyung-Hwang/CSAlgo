@@ -22,7 +22,6 @@ import java.util.StringTokenizer;
     d[i][0] = i번째 집까지 칠할 때 비용의 최솟값, 단 i번째 집은 빨강
     d[i][1] = i번째 집까지 칠할 때 비용의 최솟값, 단 i번째 집은 초록
     d[i][2] = i번째 집까지 칠할 때 비용의 최솟값, 단 i번째 집은 파랑
-    * Recurrence
     d[k][0] = min(d[k-1][1], d[k-1][2]) + R[k]
     d[k][1] = min(d[k-1][0], d[k-1][2]) + G[k]
     d[k][2] = min(d[k-1][0], d[k-1][1]) + B[k]
