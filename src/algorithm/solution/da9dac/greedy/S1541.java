@@ -32,10 +32,8 @@ public class S1541 implements P1541 {
 
 			if (i == input.length() - 1 || !Character.isDigit(input.charAt(i + 1))) {
 				num = Integer.parseInt(input.substring(i + 1 - len, i + 1));
+				sum = isMinus ? sum - num : sum + num;
 				len = 0;
-
-				if (isMinus) sum -= num;
-				else sum += num;
 			}
 		}
 
