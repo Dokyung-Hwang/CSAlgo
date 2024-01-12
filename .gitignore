@@ -31,3 +31,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# SmileDK
+src/algorithm/solution/smileDK/etc/
+src/algorithm/solution/smileDK/TODO
