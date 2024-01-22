@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
 import algorithm.problem.baekjoon.priorityQueue.P2075;
 
 public class S2075 implements P2075 {
+	// https://da9dac.tistory.com/292
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
