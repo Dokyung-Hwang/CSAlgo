@@ -74,6 +74,36 @@ public class S11724 implements P11724 {
 		endTime = System.nanoTime();
 		elapsedTime = endTime - startTime;
 		System.out.println("dfs_list 실행 시간: " + elapsedTime + " 나노초");
+
+		// dfs_list_rec 메서드의 실행 시간 측정
+		startTime = System.nanoTime();
+		dfs_list_rec();
+		endTime = System.nanoTime();
+		elapsedTime = endTime - startTime;
+		System.out.println("dfs_list_rec 실행 시간: " + elapsedTime + " 나노초");
+	}
+
+	private static void dfs_list_rec() {
+		int count = 0;
+
+		boolean[] isVisited = new boolean[n + 1];
+
+		for (int i = 1; i <= n; i++) {
+			if (isVisited[i]) continue;
+			count++;
+			rec_list(i, isVisited);
+		}
+
+		System.out.println(count);
+	}
+
+	private static void rec_list(int cur, boolean[] isVisited) {
+		isVisited[cur] = true;
+
+		for (int next : nearList.get(cur)) {
+			if (isVisited[next]) continue;
+			rec_list(next, isVisited);
+		}
 	}
 
 	private static void dfs_arr() {
