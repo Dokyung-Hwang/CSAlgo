@@ -25,8 +25,8 @@
 | 0x15 | [해시](https://www.acmicpc.net/workbook/view/9063) | ![100%](https://progress-bar.dev/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
 | 0x16 | [이진 검색 트리](https://www.acmicpc.net/workbook/view/9346) |  ![100%](https://progress-bar.dev/1/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
 | 0x17 | [우선순위 큐](https://www.acmicpc.net/workbook/view/9502) |  ![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-| 0x18 | [그래프](https://www.acmicpc.net/workbook/view/9562) | ![100%](https://progress-bar.dev/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13)  |
-| 0x19 | [트리](https://www.acmicpc.net/workbook/view/9657) | ![100%](https://progress-bar.dev/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13)  |
+| 0x18 | [그래프](https://www.acmicpc.net/workbook/view/9562) | ![100%](https://progress-bar.dev/9/?scale=13&title=progress&width=500&color=babaca&suffix=/13)  |
+| 0x19 | [트리](https://www.acmicpc.net/workbook/view/9657) | ![100%](https://progress-bar.dev/8/?scale=13&title=progress&width=500&color=babaca&suffix=/13)  |
 | 0x1A | [위상 정렬](https://www.acmicpc.net/workbook/view/9738) |  ![100%](https://progress-bar.dev/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
 | 0x1B | [최소 신장 트리](https://www.acmicpc.net/workbook/view/9907) |  ![100%](https://progress-bar.dev/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
 | 0x1C | [플로이드 알고리즘](https://www.acmicpc.net/workbook/view/10318) | ![100%](https://progress-bar.dev/0/?scale=15&title=progress&width=500&color=babaca&suffix=/15)  |
