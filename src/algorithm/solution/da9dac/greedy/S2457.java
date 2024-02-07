@@ -4,12 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.StringTokenizer;
 
 import algorithm.problem.baekjoon.greedy.P2457;
 
 public class S2457 implements P2457 {
+	// https://da9dac.tistory.com/284
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -28,39 +28,77 @@ public class S2457 implements P2457 {
 			flowers[i][3] = Integer.parseInt(st.nextToken());
 		}
 
-		Arrays.sort(flowers, (a, b) -> a[2] != b[2] ? a[2] - b[2] : a[3] - b[3]);
+		Arrays.sort(flowers, (o1, o2) -> {
+			if (o1[0] != o2[0]) {
+				return o1[0] - o2[0];
+			} else {
+				if (o1[1] != o2[1]) {
+					return o1[1] - o2[1];
+				} else {
+					if (o1[2] != o2[2]) {
+						return o1[2] - o2[2];
+					} else {
+						return o1[3] - o2[3];
+					}
+				}
+			}
+		});
 
-		System.out.println(Arrays.deepToString(flowers));
-
-		int msm = 0;	// 이전까지의 꽃이 피는 달
-		int msd = 0;	// 이전까지의 꽃이 피는 날
-		int mem = 0;	// 이전까지의 꽃이 지는 달
-		int med = 0;	// 이전까지의 꽃이 지는 날
 		int min = 0;
+		int psm = 0;
+		int psd = 0;
+		int pem = 0;
+		int ped = 0;
 
 		for (int i = 0; i < n; i++) {
-			int sm = flowers[i][0]; // 꽃이 피는 달
-			int sd = flowers[i][1]; // 꽃이 피는 날
-			int em = flowers[i][2]; // 꽃이 지는 달
-			int ed = flowers[i][3]; // 꽃이 지는 날
+			int sm = flowers[i][0];
+			int sd = flowers[i][1];
+			int em = flowers[i][2];
+			int ed = flowers[i][3];
 
-			// 3월 이전 혹은 3월 1일 이후부터 피기 시작해서 3월 1일 이후에도 꽃이 피는 경우
-			if ((sm < 3 && (em > 3 || em == 3 && ed > 1)) || (sm == 3 && sd == 1)) {
+			if (sm < 3 || (sm == 3 && sd == 1)) {
+				if (em < pem || (em == pem && ed <= ped)) continue;
 				min = 1;
-				msm = sm;
-				msd = sd;
-				mem = em;
-				med = ed;
+				psm = sm;
+				psd = sd;
+				pem = em;
+				ped = ed;
+				if (end(pem, min))
+					return;
 				continue;
 			}
 
-			// 이전 꽃보다 피는 날이 같거나 빠르고 지는 기간이 더 길다면
-			// 카운트를 늘리지 않음 = 이전 꽃 대신 교체하는 것이기 때문에
-			if ((msm > sm || (msm == sm && msd >= sd)) && (mem < em || (mem == em && med < ed))) {
+			if (min == 0) continue;
 
+			if (sm < psm || sm == psm && sd <= psd) {
+				if (em < pem || (em == pem && ed <= ped)) continue;
+				pem = em;
+				ped = ed;
+				if (end(pem, min))
+					return;
+				continue;
 			}
+
+			if (sm < pem || (sm == pem && sd <= ped)) {
+				min++;
+				psm = pem;
+				psd = ped;
+				pem = em;
+				ped = ed;
+			}
+
+			if (end(pem, min))
+				return;
 		}
 
-		System.out.println(min);
+		System.out.println(0);
+	}
+
+	private static boolean end(int pem, int min) {
+		if (pem > 11) {
+			System.out.println(min);
+			return true;
+		}
+		return false;
 	}
 }
