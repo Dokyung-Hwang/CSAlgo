@@ -31,7 +31,7 @@ public class S1475 implements P1475 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String roomNum = br.readLine();
 
-        int[] digitCounts = new int[10];
+        int[] digitCounts = new int[9];
 
         for (int i = 0; i < roomNum.length(); i++) {
             int digit = (int) roomNum.charAt(i) - '0';
@@ -48,6 +48,6 @@ public class S1475 implements P1475 {
 
         Arrays.sort(digitCounts);
 
-        System.out.println(digitCounts[9]);
+        System.out.println(digitCounts[8]);
     }
 }
