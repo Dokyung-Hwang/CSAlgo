@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-/*Todo:
+/* Memo.
 *   C++ 문법
 *   1. 맨 뒷 문자가 '_' 이면 에러
 *   2. 맨 앞 문자가 '_' 이면 에러
@@ -16,8 +16,30 @@ import java.io.InputStreamReader;
 *   1. 제일 앞에 문자가 대문자이면 에러
 *   2. 대문자와 '_'가 혼합이면 에러
 *   논외(정상)
-*   1. 소문자만 입력될 경우
+*   1. 소문자만 입력될 경우(CPP -> JAVA)
 *   2. 대문자 연속일 경우
+*   백준 질문 게시판 반례 정리(https://www.acmicpc.net/board/view/92676)
+*   맨 뒤 문자가 '_' 이면 에러
+    asd_
+    Error!
+    //맨 앞 문자가 '_' 이면 에러
+    _asd
+    Error!
+    //'_' 연속 두개면 에러
+    as__asd
+    Error!
+    //맨 앞 문자가 대문자면 에러
+    Aasd
+    Error!
+    //대문자와 '_'가 혼종이면 에러
+    asdAasd_asd
+    Error!
+    //소문자만 입력 될 경우 정상
+    fadfadfadsf
+    fadfadfadsf
+    // 대문자 연속일 경우 정상
+    asdasdASDASD
+    asdasd_a_s_d_a_s_d
 * */
 
 
@@ -31,9 +53,16 @@ public class S3613 implements P3613 {
 
         // C++ 1, 2번 조건 & Java 1번 조건
         // 아스키 코드 변환: '_' - 95, 대문자 - 65 ~ 90
-        if (varName.charAt(0) <= '_' || varName.toString().endsWith("_")) {
+        if (varName.toString().startsWith("_") || varName.toString().endsWith("_")) {
             System.out.println("Error!");
+            return;
         }
+
+        // 논외 1번
+        if (varName.toString().equals(varName.toString().toLowerCase())) {
+            cpp = true;
+        }
+
 
         // long_and_mnemonic_identifier || longAndMnemonicIdentifier
         for (int i = 0; i < varName.length(); i++) {
