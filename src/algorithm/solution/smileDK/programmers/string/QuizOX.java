@@ -19,7 +19,7 @@ public class QuizOX {
             int operand2 = Integer.parseInt(formula[2]);
             int result = Integer.parseInt(formula[4]);
             int operationResult = operand1 + operand2 * (formula[1].equals("+") ? 1 : -1);
-            quiz[i] = (operationResult == result)? "X": "O";
+            quiz[i] = (operationResult == result)? "O": "X";
         }
 
         return quiz;
