@@ -1,4 +1,4 @@
-package algorithm.solution.smileDK.programmers.string;
+package algorithm.solution.smileDK.programmers.basic;
 
 import java.util.Arrays;
 

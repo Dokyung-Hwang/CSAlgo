@@ -1,4 +1,4 @@
-package algorithm.solution.smileDK.programmers.string;
+package algorithm.solution.smileDK.programmers.basic;
 
 public class AdditionOfHiddenNumbers {
     // https://school.programmers.co.kr/learn/courses/30/lessons/120851

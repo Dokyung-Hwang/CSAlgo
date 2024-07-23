@@ -1,4 +1,4 @@
-package algorithm.solution.smileDK.programmers.etc;
+package algorithm.solution.smileDK.programmers.basic;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/120825
 public class RepeatedStrings {
