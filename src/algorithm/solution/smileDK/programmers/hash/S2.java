@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class S2 implements P2 {
     public static void main(String[] args) {
-        String[] participant1 = {"leo", "kiki", "eden"};
+        String[] participant1 = {"leo", "kiki", "eden", "kevin"};
         String[] completion1 = {"eden", "kiki"};
 
         String[] participant2 = {"marina", "josipa", "nikola", "vinko", "filipa"};
@@ -16,7 +16,7 @@ public class S2 implements P2 {
         String[] participant3 = {"mislav", "stanko", "mislav", "ana"};
         String[] completion3 = {"stanko", "ana", "mislav"};
 
-        System.out.println(solution(participant1, completion1));
+        System.out.println(solution1(participant1, completion1));
         System.out.println(solution(participant2, completion2));
         System.out.println(solution(participant3, completion3));
 
@@ -38,6 +38,27 @@ public class S2 implements P2 {
                 break;
             }
         }
+
         return answer;
+    }
+
+    // participant: 참가자 | completion: 완주자
+    private static String solution1(String[] participant, String[] completion) {
+        StringBuilder sb = new StringBuilder();
+
+        HashMap<String, Integer> map = new HashMap<>();
+
+        for (String player : participant)
+            map.put(player, map.getOrDefault(player, 0) + 1);
+        for (String play : completion)
+            map.put(play, map.get(play) - 1);
+
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() != 0) {
+                sb.append(entry.getKey()).append('\n');
+            }
+        }
+
+        return sb.toString();
     }
 }

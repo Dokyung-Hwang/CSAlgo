@@ -5,16 +5,18 @@ import algorithm.problem.programmers.hash.P1;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class S1 implements P1 {
+    // https://school.programmers.co.kr/learn/courses/30/lessons/1845
     public static void main(String[] args) {
         int[] testcase1 = {3,1,2,3};
         int[] testcase2 = {3,3,3,2,2,4};
         int[] testcase3 = {3,3,3,2,2,2};
 
-        System.out.println(solution(testcase1));
-        System.out.println(solution(testcase2));
-        System.out.println(solution(testcase3));
+        System.out.println(solution1(testcase1));
+        System.out.println(solution1(testcase2));
+        System.out.println(solution1(testcase3));
     }
 
     // 1 2 3 4 5 6
@@ -31,6 +33,22 @@ public class S1 implements P1 {
 
 
         answer = Math.min(maxCount, uniqueNums.size());
+        return answer;
+    }
+
+    private static int solution1(int[] nums) {
+        int answer = 0;
+        int maxCount = nums.length/2;
+
+        HashSet<Integer> distinctNums = IntStream.of(nums).boxed().collect(Collectors.toCollection(HashSet::new));
+
+
+        if (distinctNums.size() > maxCount)
+            answer = maxCount;
+        else
+            answer = distinctNums.size();
+
+
         return answer;
     }
 }
